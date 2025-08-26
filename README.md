@@ -122,8 +122,9 @@ ___
 
  This project includes a workflow file:
 
-  .github/workflows/maven.yml
-
+  ```
+    .github/workflows/maven.yml
+  ```
 
   It runs tests automatically on every push/pull request.
 
