@@ -22,7 +22,7 @@ Includes **customized XPaths, reusable utilities, reporting, and CI/CD integrati
 ## 📂 Project Structure
 
 
-
+```
   WahoofitnessProjectPOM/
 ├── pom.xml # Maven dependencies
 ├── testng.xml # TestNG suite configuration
@@ -44,7 +44,7 @@ Includes **customized XPaths, reusable utilities, reporting, and CI/CD integrati
 └── drivers/ # Browser drivers (if local execution)
 
 ---
-
+```
 
 
 ## ⚙️ Tech Stack
