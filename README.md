@@ -43,9 +43,9 @@ Includes **customized XPaths, reusable utilities, reporting, and CI/CD integrati
 │ └── junitreports/
 └── drivers/ # Browser drivers (if local execution)
 
----
-```
 
+```
+---
 
 ## ⚙️ Tech Stack
 - **Java 11+**  
