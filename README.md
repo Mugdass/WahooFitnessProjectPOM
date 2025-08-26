@@ -54,15 +54,15 @@ Automated testing framework for **Wahoo Fitness** web application using **Page O
 
    Run all tests via TestNG
   
-    ```
+    
       mvn clean test -DsuiteXmlFile=testng.xml
-    ```
+    
 
    Run Cucumber features
 
-    ```
+    
       mvn test -Dcucumber.options="classpath:Features/Wahoo.feature"
-    ```
+    
 
 
 ## 📊 Reports
