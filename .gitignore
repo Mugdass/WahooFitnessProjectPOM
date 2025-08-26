@@ -1,0 +1,22 @@
+# Maven target directory
+/target/
+*.class
+
+# Logs
+*.log
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Reports and outputs
+/test-output/
+/report/
+
+# Dependency folders
+/lib/*.jar
