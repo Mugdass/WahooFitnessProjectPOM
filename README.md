@@ -22,7 +22,7 @@ Includes **customized XPaths, reusable utilities, reporting, and CI/CD integrati
 ## 📂 Project Structure
 
 
-```
+
   WahoofitnessProjectPOM/
 ├── pom.xml # Maven dependencies
 ├── testng.xml # TestNG suite configuration
@@ -43,4 +43,90 @@ Includes **customized XPaths, reusable utilities, reporting, and CI/CD integrati
 │ └── junitreports/
 └── drivers/ # Browser drivers (if local execution)
 
-```
+---
+
+
+
+## ⚙️ Tech Stack
+- **Java 11+**  
+- **Selenium WebDriver**  
+- **Cucumber (BDD, Gherkin)**  
+- **TestNG**  
+- **Apache POI (Excel Data)**  
+- **Maven** (Build/Dependencies)  
+- **Allure / Extent Reports**  
+- **GitHub Actions CI/CD**  
+
+---
+
+
+
+## 🚀 Getting Started
+
+### 🔹 Prerequisites
+- Install **Java 11+**
+- Install **Maven**
+- Clone this repository:
+  ```bash
+  git clone https://github.com/yourusername/WahooFitnessProjectPOM.git
+  cd WahooFitnessProjectPOM
+
+
+___
+
+
+## 🔹 Run Tests with Maven
+
+  ```
+    mvn clean test
+
+  ```
+
+
+## 🔹 Run with TestNG
+
+  ```
+    mvn test -DsuiteXmlFile=testng.xml
+
+  ```
+
+
+## 🔹 Run Cucumber Features
+
+  ```
+      mvn test -Dcucumber.options="--tags @Regression"
+
+  ```
+
+
+---
+
+
+
+
+## 📊 Reports
+
+  TestNG Reports → test-output/emailable-report.html
+
+  Allure Reports (if enabled) →
+
+  ```
+      mvn allure:serve
+  ```
+
+
+___
+
+
+## 📌 CI/CD (GitHub Actions)
+
+ This project includes a workflow file:
+
+  .github/workflows/maven.yml
+
+
+  It runs tests automatically on every push/pull request.
+
+
+  ---
+    
