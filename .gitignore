@@ -1,47 +1,28 @@
-# Maven build files
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
+# Maven target folder
+/target/
 
-# IntelliJ IDEA
+# Test reports
+/reports/*
+!/reports/.gitkeep
+
+# TestNG output
+/test-output/
+
+# IDE settings
 .idea/
 *.iml
-*.iws
-out/
-
-# Eclipse
+*.classpath
+*.project
 .settings/
-.project
-.classpath
-
-# VS Code
 .vscode/
 
-# OS specific
+# OS junk
 .DS_Store
 Thumbs.db
 
-# Logs & reports
+# Logs
 *.log
-test-output/
-surefire-reports/
-cucumber-reports/
-report/
-allure-results/
-allure-report/
 
-# Drivers
+# Browser drivers
 drivers/
-*.exe
-*.dmg
-*.msi
-*.zip
 
-# Temporary files
-*.tmp
-*.swp
